@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘TestPush’ do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod ‘MJExtension’
+  pod 'MLLabel'
+  pod 'MWPhotoBrowser'
+  pod 'MJRefresh'
+  pod 'SDCycleScrollView', '<=1.65'
+  pod 'IQKeyboardManager', '<= 4.0.8'
+  pod ‘Masonry’
+  #pod 'Masonry', '~> 1.0.2'
+  pod 'TYPagerController', '~> 1.0.2'
+  pod 'TYAttributedLabel', '~> 2.6.2'
+  pod 'Charts', '~>3.0.2'
+end
